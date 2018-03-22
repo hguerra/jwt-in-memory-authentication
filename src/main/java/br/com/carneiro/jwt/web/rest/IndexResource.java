@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class IndexResource {
 
-    @GetMapping(value = {"", "/"})
+    @GetMapping("/home")
     public String index() {
         return "Hello";
     }
